@@ -1,0 +1,33 @@
+baseURL = "https://charleskubicek.github.io/blog/"
+theme = "PaperMod"
+languageCode = "en-us"
+title = "Charles Kubicek"
+enableEmoji = true
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+math = true
+
+[[menus.main]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menus.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
