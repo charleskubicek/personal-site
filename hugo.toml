@@ -4,6 +4,10 @@ languageCode = "en-us"
 title = "Charles Kubicek"
 enableEmoji = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 defaultTheme = "auto"
 ShowReadingTime = true
