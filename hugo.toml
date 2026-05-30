@@ -1,4 +1,4 @@
-baseURL = 'https://www.charleskubicek.com/'
+baseURL = 'https://charleskubicek.com/'
 theme = "PaperMod"
 languageCode = "en-us"
 title = "Charles Kubicek"
