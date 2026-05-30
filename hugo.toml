@@ -9,6 +9,7 @@ enableEmoji = true
     dir = ':cacheDir/images'
 
 [params]
+author = "Charles Kubicek"
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = true
